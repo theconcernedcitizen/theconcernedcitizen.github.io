@@ -1,5 +1,111 @@
 ---
 layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Midterms 2022
+subtitle: let's do this
 ---
+
+
+<center><h4>Pick your state: </h4></center>
+
+<center><select id="state" style="margin-top:5px;margin-bottom:15px;width:100%;" name="state">
+  <option value="AL">Alabama</option>
+  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
+</select></center>
+
+<center><a id="RockLink" style="width:100%;margin-top:10px;" href="#" class="btn btn-primary" onclick="get_dynamic_url_3();">Voting info</a></center>
+
+<script>
+function get_dynamic_url_3() {
+    init = "https://www.rockthevote.org/how-to-vote/";
+    state_value = $('#state :selected').text().toLowerCase();
+    url = init + state_value;
+    $("#RockLink").attr("href", url);
+    return true;
+}
+</script>
+
+<center><p style="font-size:70%;margin-top:3px;">All the information you will need to register and vote in your state. <i>Courtesy of Rock the Vote.</i></p></center>
+
+<center><a id="SwingLink" style="width:100%;" href="#" class="btn btn-primary" onclick="get_dynamic_url();">Join strategic grassroots efforts</a></center>
+
+<script>
+function get_dynamic_url() {
+    init = "https://swingleft.org/targets/state/";
+    state_value = $('#state :selected').val().toLowerCase();
+    url = init + state_value;
+    $("#SwingLink").attr("href", url);
+    return true;
+}
+</script>
+
+<center><p style="font-size:70%;margin-top:3px;">Info on key races and what's at stake in each state. Options on how to get involved (i.e., letter writing, donations to the candidate, join a volunteer group). Info for some states might not be available at this time. <i>Courtesy of Swing Left.</i></p></center>
+
+
+<center><a id="MovementLink" style="width:100%;" href="#" class="btn btn-primary" onclick="get_dynamic_url_2();">Support additional in-state grassroots voting rights organizations</a></center>
+
+<script>
+function get_dynamic_url_2() {
+    init = "https://movement.vote/groups/?location=";
+    state_value = $('#state :selected').text();
+    url = init + state_value;
+    $("#MovementLink").attr("href", url);
+    return true;
+}
+</script>
+
+<center><p style="font-size:70%;margin-top:3px;">Find and support grassroots voting rights organizations in your state. Info for some states might not be available at this time. <i>Courtesy of Movement Voter Project.</i></p><center>
+
+
+<br>
+<center><a class="twitter-timeline" data-lang="en" data-height="300" data-width="400" data-theme="light" href="https://twitter.com/swingleft?ref_src=twsrc%5Etfw">Tweets by swingleft</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+<br>
+<center><a class="twitter-timeline" data-lang="en" data-height="300" data-width="400" data-theme="light" href="https://twitter.com/openletterbot?ref_src=twsrc%5Etfw">Tweets by openletterbot</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
