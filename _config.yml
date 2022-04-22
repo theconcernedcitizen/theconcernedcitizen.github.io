@@ -26,11 +26,14 @@ author: The Concerned Citizen
 navbar-links:
   About Us: "aboutus"
   Resources:
+    - CNN Midterm Election Calendar: "https://www.cnn.com/interactive/2022/politics/2022-midterm-election-calendar/"
     - Swing Left: "https://swingleft.org/"
     - Movement.vote: "https://movement.vote/"
     - Rock the Vote: "https://www.rockthevote.org/how-to-vote/"
-    - CNN Midterm Election Calendar: "https://www.cnn.com/interactive/2022/politics/2022-midterm-election-calendar/"
-#  Author's home: "https://deanattali.com"
+    - 5Calls: "https://5calls.org/"
+    - ResistBot: "https://resist.bot/"
+    - Politifact: "https://www.politifact.com/"
+
 
 # --- Logo --- #
 
