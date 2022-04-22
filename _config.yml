@@ -24,7 +24,7 @@ author: The Concerned Citizen
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-#  About Me: "aboutme"
+  About Us: "aboutus"
   Resources:
     - Swing Left: "https://swingleft.org/"
     - Movement.vote: "https://movement.vote/"
