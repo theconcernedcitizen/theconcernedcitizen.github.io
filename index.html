@@ -18,7 +18,7 @@ subtitle: Focusing on reaching out and making change on issues close to you. Let
 .myDiv2 {   
   text-align: center;
   color: white;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 50px 50px 50px 50px;
   background: #C71585;
   padding: 5px;
   width: 100%;
@@ -84,18 +84,6 @@ subtitle: Focusing on reaching out and making change on issues close to you. Let
   <option value="WY">Wyoming</option>
 </select></center>
 
-<center><a id="CNNLink" style="font-family: Arial, sans-serif;width:100%;margin-top:5px;" href="#" class="btn btn-warning" onclick="get_dynamic_url_0();">Find the primary election dates for your state</a></center>
-
-<script>
-function get_dynamic_url_0() {
-    init = "https://www.cnn.com/interactive/2022/politics/2022-midterm-election-calendar/";
-    url = init;
-    $("#CNNLink").attr("href", url);
-    return true;
-}
-</script>
-
-
 <div class="myDiv2" style="height:5%;margin-top:10px">
 <section class="section countdown" style="margin-top:5px;">
     <center><h4>Midterms 2022 General Election: November 8, 2022</h4></center>
@@ -106,6 +94,17 @@ function get_dynamic_url_0() {
     </div></center>
 </section>
 </div>
+
+<center><a id="CNNLink" style="font-family: Arial, sans-serif;width:100%;margin-top:5px;" href="#" class="btn btn-warning" onclick="get_dynamic_url_0();">Find the primary election dates for your state</a></center>
+<script>
+function get_dynamic_url_0() {
+    init = "https://www.cnn.com/interactive/2022/politics/2022-midterm-election-calendar/";
+    url = init;
+    $("#CNNLink").attr("href", url);
+    return true;
+}
+</script>
+
 
 <script type="text/javascript">
 (function() {
