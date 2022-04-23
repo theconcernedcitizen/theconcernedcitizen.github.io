@@ -22,7 +22,6 @@ subtitle: Focusing on reaching out and making change on issues close to you. Let
   <center><h4>Pick your state</h4></center>
 </div>
 
-
 <center><select id="state" style="margin-top:5px;margin-bottom:15px;width:100%;" name="state">
   <option value="AL">Alabama</option>
   <option value="AK">Alaska</option>
@@ -75,6 +74,57 @@ subtitle: Focusing on reaching out and making change on issues close to you. Let
   <option value="WI">Wisconsin</option>
   <option value="WY">Wyoming</option>
 </select></center>
+
+<section class="section countdown">
+    <h4>Midterms 2022 General Election: November 8, 2022</h4>
+    <div id="countdown-timer" class="countdown-timer"
+        data-launch-date="{{ site.countdown.launch_date | date: "%s" }}"
+        data-format="{{ site.countdown.format }}">
+        &nbsp;
+    </div>
+</section>
+
+<script type="text/javascript">
+(function() {
+    var el = document.getElementById("countdown-timer");
+
+    var launch_date = new Date(2022, 11, 8, 00, 00, 00, 0);
+    var format = el.getAttribute("data-format");
+         
+    var days, hours, minutes, seconds;
+         
+    setInterval(function () {
+        var now = new Date().getTime();
+        var delta = (launch_date - now) / 1000;
+         
+        days = parseInt(delta / 86400);
+        delta = delta % 86400;
+             
+        hours = parseInt(delta / 3600);
+        delta = delta % 3600;
+             
+        minutes = parseInt(delta / 60);
+        seconds = parseInt(delta % 60);
+
+        var context = {
+            d: days,
+            H: hours,
+            M: minutes,
+            S: seconds
+        };
+        var result = format;
+
+        Object.keys(context).forEach(function (key) {
+            result = result.replace(new RegExp("%" + key), context[key]);
+        });
+        result = result.replace(/%%/, '%');
+
+        el.innerHTML = result;
+         
+    }, 1000);
+})();
+</script>
+
 
 <center><a id="RockLink" style="width:100%;margin-top:10px;" href="#" class="btn btn-primary" onclick="get_dynamic_url_3();">Voting info</a></center>
 
