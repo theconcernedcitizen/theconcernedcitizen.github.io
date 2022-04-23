@@ -11,7 +11,8 @@ This site contains resources for us to mobilize our reactions to be heard by peo
 Currently this site focuses in on the upcoming 2022 Midterm Elections, and aims to be a one-stop-voter-action portal.
 - How to cast your vote in your state 
 - Stay informed on key issues at stake in your state, and how you can help as a local
-- Suggestions on grassroots organizations you could support, because there are opportunities in every state that can lead to success stories like "The New Georgia Project" and "All Voting is Local - Georgia" that have been integral to Biden's win in 2020. ( Source: https://www.brookings.edu/blog/fixgov/2020/12/11/georgia-grassroots-groups-helped-biden-win-will-the-party-listen-to-them-on-the-issues/ )   
+- Suggestions on grassroots organizations you could support, because there are opportunities in every state that can lead to success stories like "The New Georgia Project" and "All Voting is Local - Georgia" that have been integral to Biden's win in 2020. 
+  - Source: https://www.brookings.edu/blog/fixgov/2020/12/11/georgia-grassroots-groups-helped-biden-win-will-the-party-listen-to-them-on-the-issues/  
 
 ### Our story
 
