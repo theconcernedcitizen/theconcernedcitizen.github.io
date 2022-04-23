@@ -100,7 +100,7 @@ function get_dynamic_url_0() {
 (function() {
     var el = document.getElementById("countdown-timer");
 
-    var launch_date = new Date(2022, 11, 8, 00, 00, 00, 0);
+    var launch_date = new Date(el.getAttribute("data-launch-date") * 1000);
     var format = el.getAttribute("data-format");
          
     var days, hours, minutes, seconds;
