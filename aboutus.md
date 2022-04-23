@@ -4,8 +4,9 @@ title: About us
 subtitle: Our mission
 ---
 
-Between the news and social media nowadays, our attention has become scattered. For those of us who support progressive causes in the US and want to see change, simply reading and reacting to the news is not enough.
-This site contains resources for us to mobilize our reactions to be heard by people in power who can do something and to empower people who are already making a difference in their own grassroots efforts.  
+Between the news and social media nowadays, our attention has become scattered. For those of us who support progressive causes in the US and want to see change, just reading and reacting to the news / social media is not enough.
+
+This site contains resources for us to mobilize our reactions to be heard by people in power who can do something and to empower people who are working to make a difference in their own grassroots efforts.  
 
 Currently this site focuses in on the upcoming 2022 Midterm Elections, and aims to be a one-stop-voter-action portal.
 - How to cast your vote in your state 
